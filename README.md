@@ -1,6 +1,6 @@
 # CRUD Service for Customer Objects
 
-To start the application open a Terminal window in the `Spring` directory and run `docker-compose up`.
+To start the application open a Terminal window in the `Spring` directory and run `docker-compose up --build`.
 
 ## Get all customers
 In order to get all customer information execute a GET method on `http://localhost:8080/user`.
