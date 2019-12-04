@@ -1,0 +1,10 @@
+spring.jpa.hibernate.ddl-auto=update
+<<<<<<< HEAD
+spring.datasource.url=jdbc:mysql://localhost:3308/user
+spring.datasource.username=root
+spring.datasource.password=password
+=======
+spring.datasource.url=jdbc:mysql://customerspring.mysql.database.azure.com:3306/innodb
+spring.datasource.username=lpedroj3@customerspring
+spring.datasource.password=password3#
+>>>>>>> master
