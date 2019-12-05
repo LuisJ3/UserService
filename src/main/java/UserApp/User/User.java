@@ -16,7 +16,7 @@ public class User {
     @Column(name = "email")
     private String Email;
     @Column(name = "phoneNumber")
-    private Long PhoneNumber;
+    private String PhoneNumber;
 
     public int getId() {
         return id;
@@ -50,11 +50,11 @@ public class User {
         Email = email;
     }
 
-    public Long getPhoneNumber() {
+    public String getPhoneNumber() {
         return PhoneNumber;
     }
 
-    public void setPhoneNumber(Long phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         PhoneNumber = phoneNumber;
     }
 }
